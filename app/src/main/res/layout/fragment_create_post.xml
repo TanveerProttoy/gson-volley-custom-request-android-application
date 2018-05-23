@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:minHeight="400dp"
+    android:minWidth="300dp"
+    android:orientation="vertical"
+    tools:context=".CreatePostFragment">
+
+    <EditText
+        android:id="@+id/create_edit_text0"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter user id"
+        android:inputType="text" />
+
+    <EditText
+        android:id="@+id/create_edit_text1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter title"
+        android:inputType="text" />
+
+    <EditText
+        android:id="@+id/create_edit_text2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter body"
+        android:inputType="text" />
+
+    <Button
+        android:id="@+id/create_btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="Create" />
+
+</LinearLayout>
